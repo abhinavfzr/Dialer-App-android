@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <EditText
+        android:id="@+id/enter_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a Phone Number" />
+
+    <Button
+        android:id="@+id/call_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:onClick="phoneCall"
+        android:text="Click To Call" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:columnCount="3"
+        android:orientation="horizontal">
+        <Button
+            android:text="1"
+            android:textSize="18sp"
+            android:minWidth="110dp"
+            android:id="@+id/e1" />
+        <Button
+            android:text="2"
+            android:textSize="18sp"
+            android:minWidth="110dp"
+            android:id="@+id/e2" />
+        <Button
+            android:text="3"
+            android:textSize="18sp"
+            android:minWidth="110dp"
+            android:id="@+id/e3" />
+        <Button
+            android:textSize="18sp"
+            android:minWidth="110dp"
+            android:text="4"
+            android:id="@+id/e4" />
+        <Button
+            android:textSize="18sp"
+            android:minWidth="110dp"
+            android:text="5"
+            android:id="@+id/e5" />
+        <Button
+            android:textSize="18sp"
+            android:minWidth="110dp"
+            android:text="6"
+            android:id="@+id/e6" />
+        <Button
+            android:textSize="18sp"
+            android:minWidth="110dp"
+            android:text="7"
+            android:id="@+id/e7" />
+        <Button
+            android:textSize="18sp"
+            android:minWidth="110dp"
+            android:text="8"
+            android:id="@+id/e8" />
+
+        <Button
+            android:textSize="18sp"
+            android:minWidth="110dp"
+            android:text="9"
+            android:id="@+id/e9" />
+        <Button
+            android:textSize="18sp"
+            android:minWidth="110dp"
+            android:text="0"
+            android:id="@+id/e0" />
+
+        <Button
+            android:textSize="18sp"
+            android:minWidth="110dp"
+            android:text="*"
+            android:id="@+id/estar" />
+
+        <Button
+            android:textSize="18sp"
+            android:minWidth="110dp"
+            android:text="#"
+            android:id="@+id/ehash" />
+    </GridLayout>
+</LinearLayout>
